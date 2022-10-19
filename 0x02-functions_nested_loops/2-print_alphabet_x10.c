@@ -1,16 +1,42 @@
-#include "main.h"
-/**
- * add - Adds two integers and returns
- * the result.
- * @a: number one.
- * @b: number two.
- * Return: Add of number one and number two.
-*/
+#include <stdio.h>
 
-int add(int a, int b)
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - prints all alphabets in lowercase 10 times.
+ * Return: On success 1.
+ */
+
+void print_alphabet_x10(void)
 
 {
 
-		return (a + b);
+	int spiro = 48;
+
+	int mor = '\n';
+
+	while (spiro < 58)
+
+	{
+
+		int ally = 97;
+
+		int pull = 122;
+
+		while (ally <= pull)
+
+		{
+
+			putchar(ally);
+
+			ally++;
+
+		}
+
+		spiro++;
+
+		putchar(mor);
+
+	}
 
 }
