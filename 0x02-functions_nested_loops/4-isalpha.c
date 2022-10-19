@@ -3,24 +3,23 @@
 #include "main.h"
 
 /**
- * main - check the code.
- * Return: Always 0.
+ * _isalpha-check if character is lowercase or uppercase
+ * @c:character to check if it islowercase.
+ * Return:1-if lowercase/uppercase,0-if not.
  */
 
-int main(void)
+int _isalpha(int c)
 
 {
 
-	int r;
-
-			r = _isalpha('H');
-			_putchar(r + '0');
-			r = _isalpha('o');
-			_putchar(r + '0');
-			r = _isalpha(108);
-			_putchar(r + '0');
-			r = _isalpha(';');
-			_putchar(r + '0');
-			_putchar('\n');
+	int_isalpha(int c)
+	{
+		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		{
+			return (1);
+		}
+		else
+		{
 			return (0);
+		}
 }
